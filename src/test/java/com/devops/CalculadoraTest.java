@@ -8,7 +8,7 @@ public class CalculadoraTest {
     @Test
     public void testSomar() {
         Calculadora calc = new Calculadora();
-        assertEquals(5, calc.somar(2, 3));
+        assertEquals(8, calc.somar(2, 3));
     }
 
     @Test
